@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="491.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsa.InformationController">
+   <children>
+      <ImageView fitHeight="319.0" fitWidth="489.0" layoutX="109.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@growth_rates.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="title" layoutX="274.0" layoutY="324.0" prefHeight="28.0" prefWidth="159.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="txt" layoutX="77.0" layoutY="395.0" prefHeight="72.0" prefWidth="553.0" wrapText="true" />
+      <Label fx:id="notations" layoutX="77.0" layoutY="367.0" prefHeight="28.0" prefWidth="553.0" />
+   </children>
+</AnchorPane>
